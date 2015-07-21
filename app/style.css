@@ -1,0 +1,68 @@
+@font-face {
+   font-family: 'Myriad Pro';
+   src: url('assets/MYRIADPRO-BOLD.woff');
+}
+@font-face {
+   font-family: 'Geometria Light';
+   src: url('assets/Geometria_Light.woff');
+}
+body {
+   background-image: url('assets/weave.png');
+   background-color: #136;
+}
+#main-card {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   width: 640px;
+   margin: 2rem auto 0;
+   padding: 20px;
+   border: 3px solid #AAA;
+   border-radius: 15px;
+   -webkit-box-shadow: 0 4px 30px 0 rgba(0,0,0,0.25);
+   -moz-box-shadow: 0 4px 30px 0 rgba(0,0,0,0.25);
+   box-shadow: 0 4px 30px 0 rgba(0,0,0,0.25);
+   background-color: #FAFAF0;
+   color: #303030;
+   font-family: 'Geometria Light', 'Arial', sans-serif;
+}
+h1 {
+   font-family: 'Myriad Pro', 'Helvetica', sans-serif;
+}
+p {
+   line-height: 1.4;
+   margin-bottom: 3rem;
+}
+img {
+   display: inline-block;
+   float: left;
+   width: 95px;
+}
+ul {
+   list-style: none;
+   margin-left: 115px;
+   padding-left: 0;
+}
+button {
+   margin-left: 115px;
+   padding: 1rem;
+   border: none;
+   border-radius: 3px;
+   background-color: #136;
+   color: #F0F0F0;
+   font-family: 'Myriad Pro';
+   font-size: 1.15rem;
+   cursor: pointer;
+   -webkit-box-shadow: 0 1px 7px 0 rgba(0,0,0,0.25);
+   -moz-box-shadow: 0 1px 7px 0 rgba(0,0,0,0.25);
+   box-shadow: 0 1px 7px 0 rgba(0,0,0,0.25);
+   -webkit-transition: all ease 0.25s;
+   -moz-transition: all ease 0.25s;
+   transition: all ease 0.25s;
+}
+button:hover {
+   background-color: #26A;
+   -webkit-box-shadow: 0 4px 15px 0 rgba(10,100,200,0.4);
+   -moz-box-shadow: 0 4px 15px 0 rgba(10,100,200,0.4);
+   box-shadow: 0 4px 15px 0 rgba(10,100,200,0.4);
+}

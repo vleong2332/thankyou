@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="thankyouApp">
+<head>
+   <meta charset="UTF-8">
+   <title>Thank You</title>
+   <!-- Script -->
+   <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+   <script type="text/javascript" src="app.js"></script>
+   <!-- Style -->
+   <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body ng-controller="thankyouNote">
+
+   <div id="main-card">
+      <h1>Thank you, {{ data.person.firstName || 'mate'}}!</h1>
+      <p>{{ data.message || 'It was good meeting you.'}}</p>
+      <img src="assets/vleong_profile_pic.png" alt="Profile Picture" />
+      <ul>
+         <li><strong>{{ personal.name }}</strong></li>
+         <li>{{ personal.title }}</li>
+         <li>{{ personal.website }}</li>
+         <li>{{ personal.email }}</li>
+         <li>{{ personal.phone }}</li>
+      </ul>
+      <a ng-href="{{ personal.resumeLink }}" target="_blank"><button>Resume</button></a>
+   </div>
+   
+</body>
+</html>
